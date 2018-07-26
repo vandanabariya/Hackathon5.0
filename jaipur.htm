@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jaipur</title>
+	<link rel="stylesheet" type="text/css" href="css/jaipur.css">
+	<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body>
+<div id="title" class="slide header">
+  <h1>JAIPUR</h1>
+  <H4> THE PINK CITY</H4>
+</div>
+
+<div id="slide1" class="slide">
+  <div class="title">
+    <h1>AMBER PALACE</h1>
+    <p>Amber (pronounced Amer) is at a distance of about 11 kilometres from Jaipur. Now a UNESCO World Heritage Site, it was the bastion of the Kachwahas of Amber, until the capital was moved to the plains, to what is today Jaipur. The palace, located in craggy hills, is a beautiful melange of Hindu and Mughal styles. Raja Man Singh I began construction in 1592 and the palace, which was built as a strong, safe haven against attacking enemies, was completed by Mirja Raja Jai Singh. The contrast between the harsh exterior and the inviting interior couldn’t be more surprising...</p>
+  </div>
+  <img class="img1" src="http://tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/125.jpg">
+  <img class="img1" src="http://1.bp.blogspot.com/-FQRv0R0z53o/UgCCzZhSkYI/AAAAAAAAoeo/SJaSba03b1Y/s1600/Jaipur+HD+wallpapers+4.jpg"> 
+</div>
+
+<div id="slide2" class="slide">
+  <div class="title">
+    <h1>JANTAR MANTAR</h1>
+    <p>Now a UNESCO World Heritage Site, Jantar Mantar in Jaipur is considered to be the largest of the five astronomical observatories built by Maharaja Sawai Jai Singh II, the founder of Jaipur. It contains sixteen geometric devices, designed to measure time, track celestial bodies and observe the orbits of the planets around the sun. It also houses the Interpretation Centre that helps the tourists to understand about the working principles & chronolgy of the observatory...</p>
+  </div>
+  <img class="img2" src="http://tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/106.jpg">
+  <img class="img2" src="https://static2.tripoto.com/media/filter/nl/img/323095/TripDocument/1489952757_1489952756434.jpg"> 
+</div>
+
+<div id="slide3" class="slide">
+  <div class="title">
+    <h1>HAWA MAHAL</h1>
+    <p>Hawa Mahal, literally the Palace of Winds, was built in 1799 by the poet king Sawai Pratap Singh as a summer retreat for him and his family. It also served as a place where the ladies of the royal household could observe everyday life without being seen themselves. This unique five-storey structure is a blend of Hindu and Islamic architecture, and the exterior, with its small latticed windows resembles the crown of Lord Krishna. The windows also serve as an air-conditioner of sorts, blowing cool air throughout the palace, making it the perfect retreat during summers. Built from pink sandstone, the Hawa Mahal is Jaipur’s iconic landmark and visitors can view its complete magnificence from outside, from across the road...</p>
+  </div>
+  <img class="img3" src="http://4.bp.blogspot.com/-Hh2U3Y9CPc4/UgCC0VH05VI/AAAAAAAAofE/pEBUgH111R0/s1600/Jaipur+HD+wallpapers+7.jpg">
+  <img class="img3" src="http://3.bp.blogspot.com/-TFrujFisUt0/UgCCuJOgqAI/AAAAAAAAoc0/NrOWhq9JZV8/s1600/Jaipur+HD+wallpapers+14.jpg"> 
+</div>
+
+<div id="slide4" class="slide">
+  <div class="title">
+    <h1>On Map</h1>
+    <p>
+    	<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6qCWyfq24S3zklWbh5CPnZsg0xKiLNpk&callback=initMap">
+    </script></p>
+  </div>
+</div>
+
+<div id="slide5" class="slide header">
+   <a href="#"><u><h1>SEE MORE</h1></u></a>
+
+</div>
+
+</body>
+</html>
